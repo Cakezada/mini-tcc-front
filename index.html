@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini TCC</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./imgs/logo.png" class="logo" alt="" />
+      <div class="line">
+        <a href=""><h2 class="line-topics">Categorias</h2></a>
+        <a href=""><h2 class="line-topics">Sobre Nós</h2></a>
+        <div class="searchBox">
+          <input
+            class="searchInput"
+            type="text"
+            name=""
+            placeholder="Pesquisar..."
+          />
+          <button class="searchButton" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_2_17)">
+                <g filter="url(#filter0_d_2_17)">
+                  <path
+                    d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                    stroke="white"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    shape-rendering="crispEdges"
+                  ></path>
+                </g>
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_2_17"
+                  x="-0.418549"
+                  y="3.70435"
+                  width="29.7139"
+                  height="29.7139"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood
+                    flood-opacity="0"
+                    result="BackgroundImageFix"
+                  ></feFlood>
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  ></feColorMatrix>
+                  <feOffset dy="4"></feOffset>
+                  <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                  <feComposite in2="hardAlpha" operator="out"></feComposite>
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                  ></feColorMatrix>
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_2_17"
+                  ></feBlend>
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_2_17"
+                    result="shape"
+                  ></feBlend>
+                </filter>
+                <clipPath id="clip0_2_17">
+                  <rect
+                    width="28.0702"
+                    height="28.0702"
+                    fill="white"
+                    transform="translate(0.403503 0.526367)"
+                  ></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+        </div>
+
+        <a href=""><img src="./imgs/account.png" class="conta" alt="" /></a>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="in-banner">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./imgs/1743106899_class_3_1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./imgs/1920x870px-5.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./imgs/1744287945_barra_10-04.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </section>
+    <section class="cards">
+      <div class="in-cards">
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/b3697cc0-91d3-4ec9-8262-8908dd304feb.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CAMISETA CHECKMATE</h5>
+          <p class="card-text">R$ 189,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/dd5d3f0d-2038-453d-aa60-869d17340bd1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BERMUDA CHINO</h5>
+          <p class="card-text">R$ 369,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/ab273383-346b-4265-ba50-6ddd3085c16f.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BONE DAD HAT SHIELD</h5>
+          <p class="card-text">R$ 169,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/eafba411-3aeb-47b6-a712-895f355c2aad.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CAMISETA TWO WAYS</h5>
+          <p class="card-text">R$ 189,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+    </div>
+    <div class="in-cards">
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/b3697cc0-91d3-4ec9-8262-8908dd304feb.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CAMISETA CHECKMATE</h5>
+          <p class="card-text">R$ 189,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/dd5d3f0d-2038-453d-aa60-869d17340bd1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BERMUDA CHINO</h5>
+          <p class="card-text">R$ 369,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/ab273383-346b-4265-ba50-6ddd3085c16f.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BONE DAD HAT SHIELD</h5>
+          <p class="card-text">R$ 169,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/eafba411-3aeb-47b6-a712-895f355c2aad.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CAMISETA TWO WAYS</h5>
+          <p class="card-text">R$ 189,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+    </div>
+    <div class="in-cards">
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/b3697cc0-91d3-4ec9-8262-8908dd304feb.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CAMISETA CHECKMATE</h5>
+          <p class="card-text">R$ 189,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/dd5d3f0d-2038-453d-aa60-869d17340bd1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BERMUDA CHINO</h5>
+          <p class="card-text">R$ 369,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/ab273383-346b-4265-ba50-6ddd3085c16f.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BONE DAD HAT SHIELD</h5>
+          <p class="card-text">R$ 169,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/eafba411-3aeb-47b6-a712-895f355c2aad.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CAMISETA TWO WAYS</h5>
+          <p class="card-text">R$ 189,99</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+    </div>
+    </section>
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #191923"
+          >
+    <!-- Section: Social media -->
+    <section
+            
+             >
+      <!-- Left -->
+      
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Cake & Zig Streetwear</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Nascida nas ruas, a Cake & Zig traz atitude, arte e estilo para quem vive a cultura urbana. Desde 2025 vestindo ideias.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Produtos</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Camisetas</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Calças</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Bonés</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Moletons</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">LINKS ÚTEIS</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Minha Conta</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Política de Troca</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Termos de Serviço</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Ajuda</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">CONTATO</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Rua Fictícia, 123, São Paulo - SP</p>
+            <p><i class="fas fa-envelope mr-3"></i> 📩 contato@cakeezig.com</p>
+            <p><i class="fas fa-phone mr-3"></i>📞 (11) 99999-9999</p>
+            <p><i class="fas fa-print mr-3"></i>📱 WhatsApp: (11) 98888-8888</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+         © 2025 Cake & Zig Streetwear.
+         Todos os direitos reservados.</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+<!-- End of .container -->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"
+  ></script>
+</html>
